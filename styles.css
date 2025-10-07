@@ -82,7 +82,7 @@ h1 {
     text-align: left;
 }
 
-.paper-type select {
+.paper-type select, #specialMidOptions select {
     width: 100%;
     padding: 10px;
     margin-top: 0.5rem;
@@ -118,7 +118,6 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 1rem;
-    margin-bottom: 2rem; /* Added spacing between sections */
 }
 
 th, td {
@@ -139,15 +138,12 @@ th {
     background-color: #45a049;
 }
 
-h4 {
-    margin: 1rem 0; /* Spacing for section headers */
-}
 .watermark {
-    position: fixed; /* Keeps the watermark in a fixed position */
-    bottom: 20px; /* Adjust placement at the bottom */
-    right: 20px; /* Adjust placement to the right */
-    font-size: 1rem; /* Adjust font size */
-    color: rgba(0, 0, 0, 0.5); /* Adjust transparency */
-    pointer-events: none; /* Avoids interaction interference */
-    z-index: 100; /* Ensures visibility above other elements */
-}
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    font-size: 1rem; 
+    color: rgba(0, 0, 0, 0.5); 
+    pointer-events: none; 
+    z-index: 100; 
+  }
