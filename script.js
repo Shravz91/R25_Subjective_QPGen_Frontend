@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://des-backend-n4p7.onrender.com/api';
+const API_BASE_URL = 'https://r25-subjective-qpgen-backend.onrender.com/api';
 
 document.getElementById('excelFile').addEventListener('change', handleFileUpload);
 document.getElementById('generateButton').addEventListener('click', generateQuestionPaper);
